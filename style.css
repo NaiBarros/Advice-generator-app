@@ -26,15 +26,13 @@ main {
 
 section {
   width: 650px;
-  height: 350px;
   background-color: hsl(217, 19%, 24%);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding: 0px 50px 100px 50px;
-
+  padding: 0px 50px 60px 50px;
 }
 
 p {
@@ -51,10 +49,7 @@ h1 {
   text-align: center;
 }
 
-.divisaoPagina {
-  position: absolute;
-  margin-top: 250px;
-}
+.divisaoPagina {}
 
 button {
   background-color: hsl(150, 100%, 66%);
@@ -62,8 +57,8 @@ button {
   height: 65px;
   border-radius: 50%;
   border: none;
-  margin-top: 317px;
   position: absolute;
+  top: calc(100% - 32.5px);
   display: flex;
   justify-content: center;
   align-items: center;
